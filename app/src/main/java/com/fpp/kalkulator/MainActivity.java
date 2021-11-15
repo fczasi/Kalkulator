@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
     public void trzy(View view){// liczba trzy
         TextView okno = findViewById(R.id.okienko);
         String weztekst = okno.getText().toString();
-        okno.setText(weztekst + "3");
+        okno.setText(weztekst + "3");//
         odblokowanie();
     }
 
